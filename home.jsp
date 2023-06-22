@@ -1,58 +1,89 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!---css link-->
     <link rel="stylesheet" href="home.css">
     <!---googlefonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <!---remixicons-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-    <title>Home</title>
+<meta charset="ISO-8859-1">
+<title>Home</title>
 </head>
 <body>
-    <div class="header">
+    
+    <header class="header">
         <div class="logo">
-            <a  href="#">
-                <img width="180" src="C:\Users\bemar\eclipse-workspace\semestral\src\main\webapp\logo.png">
-            </a>     
-        </div>
-        <div class="navbar">
-            <a href="#">Contactenos</a>
-            <a href="#">Referencias</a>
-            <div class="dropdown">
-              <button class="dropbtn">Cursos
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="#">Curso de Ciencias Naturales</a>
-                <a href="#">Curso de Quimica y Biologia </a>
-                <a href="#">Curso de Programacion</a>
-              </div>
-            </div>
-            <a style="color: #D1284C;" href="#">Home</a>
-          </div>
-        </div>
-        <br><br><br><br><br><br><br><br><br><br>
-        <div style="width: 1323px; height: 393px; position: relative">
-            <div style="width: 600px; height: 393px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-            <div style="left: 653px; top: 0px; position: absolute; color: #D1284C; font-size: 36px; font-family: Roboto; font-weight: 800; word-wrap: break-word">Vacunas ARN: <br/>Transformando la Lucha contra <br/>las Enfermedades</div>
-            <div style="width: 670px; left: 653px; top: 164px; position: absolute; color: #3E0E1F; font-size: 16px; font-family: Roboto; font-weight: 800; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut aliquet dolor. Quisque bibendum tincidunt justo, eget dapibus nunc feugiat nec. Curabitur nec dolor ac urna pharetra tristique. Nullam eu nisi ut nulla placerat fringilla. Morbi feugiat, mauris nec gravida tincidunt, lacus urna vulputate risus, a iaculis nisl risus vitae ex. Cras pulvinar neque eu mauris tincidunt posuere.</div>
-            <div style="left: 653px; top: 297px; position: absolute"><span style="color: #1E1E1E; font-size: 20px; font-family: Roboto; font-weight: 700; word-wrap: break-word">PARA CONOCER MÁS SOBRE ESTE TEMA</span><span style="color: black; font-size: 20px; font-family: Roboto; font-weight: 700; word-wrap: break-word">,</span><span style="color: #F88020; font-size: 20px; font-family: Roboto; font-weight: 700; word-wrap: break-word"> HAGA CLICK AQUÍ</span></div>
-          </div>
-          <br><br><br><br>
-          <div style="width: 1323px; height: 393px; position: relative">
-              <div style="width: 600px; height: 393px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-              <div style="left: 653px; top: 0px; position: absolute; color: #D1284C; font-size: 36px; font-family: Roboto; font-weight: 800; word-wrap: break-word">Vacunas ARN: <br/>Transformando la Lucha contra <br/>las Enfermedades</div>
-              <div style="width: 670px; left: 653px; top: 164px; position: absolute; color: #3E0E1F; font-size: 16px; font-family: Roboto; font-weight: 800; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut aliquet dolor. Quisque bibendum tincidunt justo, eget dapibus nunc feugiat nec. Curabitur nec dolor ac urna pharetra tristique. Nullam eu nisi ut nulla placerat fringilla. Morbi feugiat, mauris nec gravida tincidunt, lacus urna vulputate risus, a iaculis nisl risus vitae ex. Cras pulvinar neque eu mauris tincidunt posuere.</div>
-              <div style="left: 653px; top: 297px; position: absolute"><span style="color: #1E1E1E; font-size: 20px; font-family: Roboto; font-weight: 700; word-wrap: break-word">PARA CONOCER MÁS SOBRE ESTE TEMA</span><span style="color: black; font-size: 20px; font-family: Roboto; font-weight: 700; word-wrap: break-word">,</span><span style="color: #F88020; font-size: 20px; font-family: Roboto; font-weight: 700; word-wrap: break-word"> HAGA CLICK AQUÍ</span></div>
-            </div>
+            <img style="width: 199px; height: 113px" src="https://res.cloudinary.com/djsqgd1lq/image/upload/v1687376048/SoloCiencia-Logo.jpg"/ alt="">
+        </div>       
         
-</header>
+        <div class="navbar">
+            <ul class="navbar-options">
+                <li><a style="color: #D1284C;" href="#">Home</a></li>
+                <li><a href="#">Contactenos</a></li>
+                <li><a href="#">Referencias</a></li>
+                <div class="dropdown"><button class="dropbtn">Cursos</button>
+                    <div class="dropdown-content">
+                        <a href="#">Curso de Ciencias Naturales</a>
+                        <a href="#">Curso de Quimica y Biologia </a>
+                        <a href="#">Curso de Programacion</a>
+                    </div>
+                </div>
+            </ul>
+        </div>        
+    </header>
+
+    <section class="noticia-1">
+        <div class="video">
+            <iframe width="600" height="350" src="https://www.youtube.com/embed/HeR6tFekSdw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="noticia-1-texto">
+            <h1> Vacunas ARN: <br> 
+                Transformando la Lucha contra <br>
+                las Enfermedades</h1>
+            <p>Las vacunas de ARN mensajero (ARNm) son un tipo de vacuna innovadora que utiliza fragmentos de ARN mensajero para enseñar al sistema inmunológico 
+                a reconocer y combatir enfermedades. Estas vacunas han recibido una considerable atención en los últimos años, especialmente durante la pandemia de 
+                COVID-19. Este ARNm contiene la información necesaria para producir una proteína específica asociada con el agente patógeno que se desea combatir, 
+                como el coronavirus que causa COVID-19. Esto desencadena una respuesta inmune, ya que el sistema inmunológico reconoce la proteína como extraña y 
+                genera una respuesta de defensa.</p>
+            <h3>PARA CONOCER MAS SOBRE ESTE TEMA</span><span style="color: #F88020"> HAGA CLICK AQUI</span></h3>
+        </div>
+    </section>
+
+    <section class="noticia-1">
+        
+        <div class="noticia-1-texto">
+            <h1> Edicion genetica con <br>CRISPR-Cas9</h1>
+            <p>La tecnología de edición genética CRISPR-Cas9 ha revolucionado la medicina en los últimos años. Esta herramienta permite a los científicos realizar modificaciones precisas 
+                en el ADN de las células, lo que abre el camino a tratamientos y curas para diversas enfermedades genéticas. En 2020, se logró un hito importante al utilizar 
+                CRISPR-Cas9 para tratar con éxito la anemia de células falciformes en pacientes. Los científicos editaron genéticamente las células madre de la médula ósea 
+                de los pacientes, corrigiendo la mutación responsable de la enfermedad. Este avance demuestra el potencial de la edición genética para abordar enfermedades 
+                genéticas graves y allana el camino para futuros tratamientos personalizados.</p>
+            <h3>PARA CONOCER MAS SOBRE ESTE TEMA</span><span style="color: #F88020"> HAGA CLICK AQUI</span></h3>
+        </div>
+        <div class="video">
+            <iframe width="600" height="350" src="https://www.youtube.com/embed/UaxrYWCyLdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="noticia-1">
+        <div class="video">
+            <iframe width="600" height="350" src="https://www.youtube.com/embed/HXnS52RbuZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="noticia-1-texto">
+            <h1>Utilización de Inteligencia Artificial (IA) <br>y Aprendizaje Automático en el diagnóstico Médico.</h1>
+            <p>La IA y el aprendizaje automático se han aplicado en diferentes áreas de la medicina, como la radiología, la dermatología y la patología. Por 
+                ejemplo, en el campo de la radiología, los algoritmos de aprendizaje automático pueden analizar imágenes médicas, como tomografías 
+                computarizadas o resonancias magnéticas, para detectar anomalías y ayudar a los radiólogos a realizar diagnósticos más precisos. Además, la 
+                IA también se ha utilizado en la interpretación de datos genómicos para identificar marcadores genéticos asociados con 
+                enfermedades y predecir la respuesta a tratamientos específicos. Esto tiene el potencial de personalizar los tratamientos médicos y mejorar la 
+                atención al paciente.</p>
+            <h3>PARA CONOCER MAS SOBRE ESTE TEMA</span><span style="color: #F88020"> HAGA CLICK AQUI</span></h3>
+        </div>
+    </section>
 </body>
 </html>
