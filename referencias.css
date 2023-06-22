@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+*{
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF9F7;
+}
+.title{
+    text-align: center;
+    color: #3E0E1F;
+}
+
+.tabla-periodica{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+td {
+    width: 100px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.sinborde{
+    border: none;
+}
+
+/*Colores de las celdas*/
+
+.rojo{
+    background-color: #D1284C;
+}
+
+.azul{
+    background-color: #4EAEC4;
+}
+
+.naranja{
+    background-color: #F88020;
+}
+
+.amarillo{
+    background-color: #EDC85F;
+}
+
+.purpura{
+    background-color: #A46BB2;
+}
+
+.fiucha{
+    background-color: #bf00b2;
+}
+
+.verde{
+    background-color: #54D39C;
+}
+
+.verdeclaro{
+    background-color: #81d153;
+}
+
+/*css header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    align-items: center;
+    padding: 15px 5%;
+}
+/*css navbar*/
+.navbar-options li{
+    list-style: none;
+}
+.navbar-options{
+    display: flex;   
+}
+.navbar-options a{
+    color: #3E0E1F;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+/*css para que el boton luzca como un link mas del navbar*/
+.dropbtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #3E0E1F;
+    font-weight: 600;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*sombreado del caja del dropdown*/
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: #3E0E1F;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  /*display del dropdwon menu*/
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
