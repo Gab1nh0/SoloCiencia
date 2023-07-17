@@ -5,7 +5,8 @@
 <head>
 <!--Css link--> 
 <link rel="stylesheet" href="registro.css">
-
+<!---remixicons-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
 <!---googlefonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,55 +15,89 @@
 <title>Registro</title>
 </head>
 <body>
-<!---Header de la pagina--->
-    <header class="header">
-        <div class="logo">
-            <img style="width: 150px; height: 80px" src="https://res.cloudinary.com/djsqgd1lq/image/upload/v1687376048/SoloCiencia-Logo.jpg"/ alt="">
-        </div>       
-        <div class="navbar">
-            <ul class="navbar-options">
-                <li><a style="color: #D1284C;" href="#">Home</a></li>
-                <li><a href="#">Contactenos</a></li>
-                <li><a href="#">Referencias</a></li>
-                <div class="dropdown"><button class="dropbtn">Cursos</button>
-                    <div class="dropdown-content">
-                        <a href="#">Curso de Ciencias Naturales</a>
-                        <a href="#">Curso de Quimica y Biologia </a>
-                        <a href="#">Curso de Programacion</a>
-                    </div>
+    <!---Header de la pagina-->
+   <header class="header">
+    <div class="logo">
+        <img style="width: 150px; height: 80px" src="https://res.cloudinary.com/djsqgd1lq/image/upload/v1687376048/SoloCiencia-Logo.jpg"/ alt="">
+    </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-options">
+            <li><a href="home.jsp">Home</a></li>
+            <li><a href="contactenos.jsp">Contactenos</a></li>
+            <div class="dropdown"><button class="dropbtn">Cursos<i class="ri-arrow-down-s-line"></i></button>
+                <div class="dropdown-content">
+                    <a href="ciencias-naturales.jsp">Curso de Ciencias Naturales</a>
+                    <a href="quimica-biologia.jsp">Curso de Quimica y Biologia </a>
+                    <a href="programacion.jsp">Curso de Programacion</a>
                 </div>
-            </ul>
-        </div>        
-    </header>
+            </div>
+            <li><a href="referencias.jsp">Referencias</a></li>
+            <div class="navbar-redes">
+                <li><a href="https://twitter.com/solocienci54964" target="_blank"><i class="ri-twitter-fill"></i></a> </li>
+                <li><a href="https://www.instagram.com/solo_ciencia_utp?hl=es-la" target="_blank"><i class="ri-instagram-fill"></i></a></li>    
+                <li><a href="https://www.google.com/?hl=es" target="_blank"><i class="ri-search-line"></i></a></li>
+            </div>
+        </ul>
+    </div>        
+</header>
     <h1>Bienvenido</h1>
         <section>
             <div class="form-box">
                 <div class="form-value">
-                    <form action="">
+                    <form action="captura-registro.jsp">
                         <div class="inputbox">
-                            <input type="name" required>
-                            <label for="">Nombre</label>
+                            <label for="">Nombre</label><br>
+                            <input type="name" name="name" required placeholder="Ingrese su nombre">
+                            
                         </div>
                         <div class="inputbox">
-                            <input type="text" required>
-                            <label for="">Apellido</label>
+                            <label for="">Apellido</label><br>
+                            <input type="text" name="apellido" required placeholder="Ingrese su apellido">
+                            
                         </div>
                         <div class="inputbox">
-                            <input type="number" required>
-                            <label for="">Edad</label>
+                            <label for="">Edad</label><br>
+                            <input type="number" name="edad" required placeholder="Ingrese su edad">
+                            
                         </div>
                         <div class="inputbox">
-                            <input type="password" required>
-                            <label for="">Contrasena</label>
+                            <label for="">Contrasena</label><br>
+                            <input type="password" name="pass" required placeholder="Ingrese su contrasena">
+                            
                         </div>
-                        <button class="enviar">Iniciar Sesion</button>
+                        <button class="enviar">Registrarse</button>
                         <div class="register">
                         </div>
                     </form>
                 </div>
             </div>
-        </section>
-
+        </section><br><br><br>
+<!--footer-->
+    <Footer class="footer">
+        <div class="footer-top">
+            <div class="footer-links">
+                <ul><a class="afooter" href="home.jsp">Home</a></ul>
+                <ul><a class="afooter" href="contactenos.jsp">Contactenos</a></ul>
+                <ul><a class="afooter" href="referencias.jsp">Referencias</a></ul>
+            </div>
+            <div class="footer-cursos">
+                <ul><a class="afooter" href="ciencias-naturales.jsp">Curso de Ciencias Naturales</a></ul>
+                <ul><a class="afooter" href="quimica-biologia.jsp">Curso de Biologia y Quimica</a></ul>
+                <ul><a class="afooter" href="programacion.jsp">Curso de Programacion</a></ul>
+            </div>
+            <div class="footer-social">
+                <ul><a class="afooter" href="https://www.instagram.com/solo_ciencia_utp?hl=es-la">Instagram</a></ul>
+                <ul><a class="afooter" href="https://twitter.com/solocienci54964">Twitter</a></ul>
+                <ul><a class="afooter" href="iniciosesion.jsp">Cerrar Sesion<i class="ri-door-open-fill"></i></a></ul>
+            </div>
+        </div>
+        <br>
+        <div class="footer-end">
+            <p><i class="ri-copyright-line"></i> Copyright</p> <br>
+        </div>
+    </Footer>
+    
     
 </body>
 </html>

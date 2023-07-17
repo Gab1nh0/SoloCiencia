@@ -107,7 +107,6 @@ header{
   }
 
   .dropdown-content a {
-    float: none;
     color: #3E0E1F;
     padding: 12px 16px;
     text-decoration: none;
@@ -122,4 +121,131 @@ header{
   /*display del dropdwon menu*/
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  a{
+    background: transparent;
+    color: #3E0E1F;
+    text-decoration: none;
+  }
+
+  .navbar-redes{
+    display: flex;
+  }
+  
+  .navbar-redes a:hover{
+    text-decoration: none;
+  }
+  
+
+  /*Css para hover tabla periodica*/
+a:hover{
+  color: white;
+}
+
+.rojo:hover{
+  background-color: #031FA2 ;
+}
+
+.azul:hover{
+    background-color: #031FA2;
+}
+
+.naranja:hover{
+    background-color: #031FA2;
+}
+
+.amarillo:hover{
+    background-color: #031FA2;
+}
+
+.purpura:hover{
+    background-color: #031FA2;
+}
+
+.fiucha:hover{
+    background-color: #031FA2;
+}
+
+.verde:hover{
+    background-color: #031FA2;
+}
+
+.verdeclaro:hover{
+    background-color: #031FA2;
+}
+
+/*footer css*/
+.footer{
+    background: #E9D6D0;
+  }
+  .footer-links{
+    background: transparent;
+  }
+  
+  .footer-links ul{
+    background: transparent;
+  }
+  .footer-links a{
+    background: transparent;
+  }
+  
+  .footer-cursos{
+    background: transparent;
+  }
+  
+  .footer-cursos ul{
+    background: transparent;
+  }
+  
+  .footer-cursos a{
+    background: transparent;
+  }
+  
+  .footer-social{
+    background: transparent;
+  }
+  
+  .footer-social a{
+    background: transparent;
+  }
+  
+  .footer-social ul{
+    background: transparent;
+  }
+  
+  .footer-top{
+    background-color: #E9D6D0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .footer-top a{
+    text-decoration: none;
+    color: #3E0E1F;
+  }
+  
+  
+  .footer-top a:hover{
+   text-decoration: underline;
+  }
+  
+  .footer-end{
+    background-color: #E9D6D0;
+    text-align: center;
+    color: #3E0E1F;
+  }
+  
+  .footer-end p{
+    background-color: #E9D6D0;
+  }
+  
+  .ri-copyright-line{
+    background-color: #E9D6D0;
+  }
+
+.ri-door-open-fill{
+    background-color: #E9D6D0;
   }

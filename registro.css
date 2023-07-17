@@ -4,7 +4,9 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #FFF9F7;
+    
 }
+
 
 /*css header*/
 header{
@@ -68,6 +70,7 @@ header{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
 /*Titulo*/
 h1{
     text-align: center;
@@ -81,36 +84,38 @@ section{
     width: 100%;
 }
 
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid #3E0E1F;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .inputbox{
     position: relative;
     margin: 30px 0;
-    width: 600px;
+    width: 310px;
     border-bottom: 2px solid #3E0E1F;
 }
 
-.inputbox label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    Color: #3E0E1F
-} 
-
-input:focus ~ label,
-input:focus ~ :valid{
-    top: -5px
-}
-
-.inputbox input{
+.inputbox input {
     width: 100%;
     height: 50px;
     background: transparent;
     border: none;
     outline: none;
-    font-size: 1em;
-    padding: 35px;
+    font-size: 16px;
+    padding:0 35px 0 5px;
+    color: #3E0E1F;
 }
 
-.enviar{
+  .enviar{
     width: 100%;
     height: 40px;
     border-radius: 40px;
@@ -119,3 +124,90 @@ input:focus ~ :valid{
     outline: none;
     color: white;
 }
+
+/*footer css*/
+
+.footer{
+    background: #E9D6D0;
+    width: 100%;
+  }
+  .footer-links{
+    background: transparent;
+  }
+  
+  .footer-links ul{
+    background: transparent;
+  }
+  .footer-links a{
+    background: transparent;
+  }
+  
+  .footer-cursos{
+    background: transparent;
+  }
+  
+  .footer-cursos ul{
+    background: transparent;
+  }
+  
+  .footer-cursos a{
+    background: transparent;
+  }
+  
+  .footer-social{
+    background: transparent;
+  }
+  
+  .footer-social a{
+    background: transparent;
+  }
+  
+  .footer-social ul{
+    background: transparent;
+  }
+  
+  .footer-top{
+    background-color: #E9D6D0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .footer-top a{
+    text-decoration: none;
+    color: #3E0E1F;
+  }
+  
+  
+  .footer-top a:hover{
+   text-decoration: underline;
+  }
+  
+  .footer-end{
+    background-color: #E9D6D0;
+    text-align: center;
+    color: #3E0E1F;
+  }
+  
+  .footer-end p{
+    background-color: #E9D6D0;
+  }
+  
+  .ri-copyright-line{
+    background-color: #E9D6D0;
+  }
+  
+  .navbar-redes{
+    display: flex;
+  }
+  
+  .navbar-redes a:hover{
+    text-decoration: none;
+  }
+  
+  .ri-door-open-fill{
+    background-color: #E9D6D0;
+  }
+  
+  

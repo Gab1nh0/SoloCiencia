@@ -14,6 +14,14 @@ header{
     align-items: center;
     padding: 15px 5%;
 }
+/*css header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    align-items: center;
+    padding: 15px 5%;
+}
 /*css navbar*/
 .navbar-options li{
     list-style: none;
@@ -68,6 +76,21 @@ header{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  a{
+    background: transparent;
+    color: #3E0E1F;
+    text-decoration: none;
+  }
+
+  .navbar-redes{
+    display: flex;
+  }
+  
+  .navbar-redes a:hover{
+    text-decoration: none;
+  }
+  
 /*Titulo*/
 h1{
     text-align: center;
@@ -92,7 +115,6 @@ section{
     width: 400px;
     height: 450px;
     background: transparent;
-    border: 2px solid rgba(255,255,255,0.5);
     border-radius: 20px;
     backdrop-filter: blur(15px);
     display: flex;
@@ -101,14 +123,13 @@ section{
 
 }
 .inputbox{
-    width: 600px;
-    border-bottom: 2px solid #3E0E1F;
+    width: 600px;    
 }
 
 .inputbox label{
     top: 50%;
     left: 5px;
-    Color: #3E0E1F
+    Color: #3E0E1F;
 } 
 
 .inputbox input{
@@ -118,28 +139,23 @@ section{
     border: none;
     outline: none;
     font-size: 1em;
-}
-
-/*date*/
-.inputboxdate{
-    width: 600px;
     border-bottom: 2px solid #3E0E1F;
+    transition: border-bottom 0.1s linear 0s;
 }
 
-.inputboxdate label{
-    top: 50%;
-    left: 5px;
-    Color: #3E0E1F
-} 
+.inputbox input:focus{
+    border-bottom: 5px solid #D1284C;
+}
 
-.inputboxdate input{
-    width: 100%;
+select{
+	width: 100%;
     height: 50px;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #3E0E1F; 
 }
+
 
 .enviar{
     width: 100%;
@@ -150,3 +166,81 @@ section{
     outline: none;
     color: white;
 }
+
+/*footer css*/
+.footer{
+    background: #E9D6D0;
+  }
+  .footer-links{
+    background: transparent;
+  }
+  
+  .footer-links ul{
+    background: transparent;
+  }
+  .footer-links a{
+    background: transparent;
+  }
+  
+  .footer-cursos{
+    background: transparent;
+  }
+  
+  .footer-cursos ul{
+    background: transparent;
+  }
+  
+  .footer-cursos a{
+    background: transparent;
+  }
+  
+  .footer-social{
+    background: transparent;
+  }
+  
+  .footer-social a{
+    background: transparent;
+  }
+  
+  .footer-social ul{
+    background: transparent;
+  }
+  
+  .footer-top{
+    background-color: #E9D6D0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .footer-top a{
+    text-decoration: none;
+    color: #3E0E1F;
+  }
+  
+  
+  .footer-top a:hover{
+   text-decoration: underline;
+  }
+  
+  .footer-end{
+    background-color: #E9D6D0;
+    text-align: center;
+    color: #3E0E1F;
+  }
+  
+  .footer-end p{
+    background-color: #E9D6D0;
+  }
+  
+  .ri-copyright-line{
+    background-color: #E9D6D0;
+  }
+  
+  .ri-door-open-fill{
+    background-color: #E9D6D0;
+  }
+  
+  
+  

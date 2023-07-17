@@ -1,10 +1,14 @@
 @charset "ISO-8859-1";
+@charset "ISO-8859-1";
 *{
     font-family: 'Permanent Marker', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #FFF9F7;
+    
 }
+
+
 /*css header*/
 header{
     display: flex;
@@ -68,32 +72,71 @@ header{
     display: block;
   }
 
-  /*CSS para noticias*/
-.noticia-1-texto{
-    width: 670px;
+/*Titutlo*/
+h1{
+    text-align: center;
 }
 
-.noticia-1{
+/*Formulario*/
+section{
     display: flex;
-    justify-content: space-between;
-    padding: 100px 5%;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
 }
 
-.noticia-1-texto h1{
-    color: #D1284C;
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid #3E0E1F;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.noticia-1-texto p{
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #3E0E1F;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding:0 35px 0 5px;
     color: #3E0E1F;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
 }
 
-.noticia-1-texto h3{
-    color: #3E0E1F;
+  .enviar{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #D1284C;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.registrarse-link{
+  color: #3E0E1F;
+}
+
+.registrarse-link a{
+  color: #F88020;
+  text-decoration: none;
 }
 
 /*footer css*/
+
 .footer{
   background: #E9D6D0;
 }
@@ -164,9 +207,6 @@ header{
   background-color: #E9D6D0;
 }
 
-.ri-door-open-fill{
-  background-color: #E9D6D0;
-}
 .navbar-redes{
   display: flex;
 }
@@ -174,3 +214,6 @@ header{
 .navbar-redes a:hover{
   text-decoration: none;
 }
+
+
+
